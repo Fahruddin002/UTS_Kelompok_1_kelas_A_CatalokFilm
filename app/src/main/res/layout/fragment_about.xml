@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment"
+    android:background="@drawable/background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:textSize="40dp"
+        android:text="About !"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:src="@drawable/kita" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:src="@color/black"
+        android:alpha="0.3"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:justificationMode="inter_word"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginTop="130dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Tonton dan temukan dunia film dalam genggamanmu: Aplikasi Katalog Film kami hadir untuk memenuhi semua keinginanmu tentang film favoritmu"/>
+</FrameLayout>
